@@ -1,154 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>QPAI – AI-Powered Research Services</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-</head>
-
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-
-    <!-- Font Awesome Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/styles.css">
-
-    <!-- Scroll Animation Script -->
-    <script defer src="js/scroll-animation.js"></script>
-</head>
-<body>
-    <!-- Header & Navigation -->
-    <header>
-        <div class="container">
-            <nav class="navbar">
-                <a href="#" class="logo">QPAI</a>
-                <ul class="nav-links">
-                    <li><a href="#features">Features</a></li>
-                    <li><a href="#pricing">Pricing</a></li>
-                    <li><a href="#testimonials">Testimonials</a></li>
-                    <li><a href="#blog">Blog</a></li>
-                    <li><a href="pages/contact.html">Contact</a></li>
-                </ul>
-                <div class="mobile-menu">
-                    <i class="fas fa-bars"></i>
-                </div>
-            </nav>
-        </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QPAI – AI-Powered Research Services</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-white text-gray-900 font-sans leading-relaxed">
+    <!-- Navbar -->
+    <header class="bg-white shadow">
+      <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+        <a href="#" class="text-xl font-bold text-indigo-600">QPAI</a>
+        <nav class="space-x-6 hidden md:flex">
+          <a href="#features" class="hover:text-indigo-600">Features</a>
+          <a href="#pricing" class="hover:text-indigo-600">Pricing</a>
+          <a href="#testimonials" class="hover:text-indigo-600">Testimonials</a>
+          <a href="#blog" class="hover:text-indigo-600">Blog</a>
+          <a href="#contact" class="hover:text-indigo-600">Contact</a>
+        </nav>
+      </div>
     </header>
 
-    <!-- Hero Section -->
-    <section class="hero" id="home">
-        <div class="container">
-            <div class="hero-content">
-                <h1>Smart Insights. Real Results. AI-Driven.</h1>
-                <p>AI-powered research and analysis services tailored for founders, startups, and small teams.</p>
-                <a href="#contact" class="btn btn-primary">Request a Free Sample Report</a>
-            </div>
-        </div>
+    <!-- Hero -->
+    <section class="bg-gray-50 py-16 px-4 text-center">
+      <h1 class="text-4xl font-bold mb-4">Smart Insights. Real Results. AI-Driven.</h1>
+      <p class="text-lg mb-6 max-w-xl mx-auto">
+        AI-powered research and analysis services tailored for founders, startups, and small teams.
+      </p>
+      <a href="#contact" class="bg-indigo-600 text-white px-6 py-3 rounded hover:bg-indigo-700">
+        Request a Free Sample Report
+      </a>
     </section>
 
-    <!-- Features Section -->
-    <section class="section features" id="features">
-        <div class="container">
-            <div class="section-title">
-                <h2>How QPAI Works For You</h2>
-            </div>
-            <div class="features-grid">
-                <!-- Feature Cards (unchanged) -->
-                <!-- Feature cards go here (omitted for brevity) -->
-            </div>
-        </div>
+    <!-- Features -->
+    <section id="features" class="py-16 px-4 max-w-4xl mx-auto">
+      <h2 class="text-2xl font-semibold mb-8 text-center">How QPAI Works For You</h2>
+      <ul class="space-y-4">
+        <li>✅ We gather insights from market trends, customer feedback, and competitors.</li>
+        <li>✅ You receive actionable reports tailored to your goals.</li>
+        <li>✅ Delivered fast, with clarity and zero jargon.</li>
+      </ul>
     </section>
 
-    <!-- Pricing Section -->
-    <section class="section pricing" id="pricing">
-        <div class="container">
-            <div class="section-title">
-                <h2>Simple, Transparent Pricing</h2>
-            </div>
-            <div class="pricing-grid">
-                <!-- Pricing Cards (unchanged) -->
-                <!-- Pricing cards go here (omitted for brevity) -->
-            </div>
+    <!-- Pricing -->
+    <section id="pricing" class="bg-gray-100 py-16 px-4">
+      <div class="max-w-4xl mx-auto">
+        <h2 class="text-2xl font-semibold mb-8 text-center">Simple, Transparent Pricing</h2>
+        <div class="grid md:grid-cols-3 gap-6">
+          <div class="bg-white p-6 rounded shadow text-center">
+            <h3 class="text-xl font-semibold mb-2">Starter</h3>
+            <p class="text-3xl font-bold mb-4">£99</p>
+            <p>One-time research report</p>
+          </div>
+          <div class="bg-white p-6 rounded shadow text-center border-2 border-indigo-600">
+            <h3 class="text-xl font-semibold mb-2">Growth</h3>
+            <p class="text-3xl font-bold mb-4">£299/mo</p>
+            <p>Weekly research & insights</p>
+          </div>
+          <div class="bg-white p-6 rounded shadow text-center">
+            <h3 class="text-xl font-semibold mb-2">Custom</h3>
+            <p class="text-3xl font-bold mb-4">Let's Talk</p>
+            <p>Tailored to your needs</p>
+          </div>
         </div>
+      </div>
     </section>
 
-    <!-- Testimonials Section -->
-    <section class="section testimonials" id="testimonials">
-        <div class="container">
-            <div class="section-title">
-                <h2>Trusted by Small Teams and Independent Brands</h2>
-            </div>
-            <div class="testimonials-grid">
-                <!-- Testimonial Cards (unchanged) -->
-                <!-- Testimonial cards go here (omitted for brevity) -->
-            </div>
-        </div>
+    <!-- Testimonials -->
+    <section id="testimonials" class="py-16 px-4 max-w-4xl mx-auto">
+      <h2 class="text-2xl font-semibold mb-8 text-center">Trusted by Small Teams and Independent Brands</h2>
+      <blockquote class="italic text-gray-700 mb-6">
+        “QPAI helped us understand our audience better than ever. The reports were sharp, insightful, and easy to act on.” — Founder, Indie Startup
+      </blockquote>
+      <blockquote class="italic text-gray-700">
+        “As a solo founder, this saved me hours of research every week. Invaluable.” — SaaS Creator
+      </blockquote>
     </section>
 
-    <!-- Blog Section Preview -->
-    <section class="section blog" id="blog">
-        <div class="container">
-            <div class="section-title">
-                <h2>Insights & AI Tips</h2>
-            </div>
-            <div class="blog-grid">
-                <!-- Blog Cards (unchanged) -->
-                <!-- Blog cards go here (omitted for brevity) -->
-            </div>
-            <div class="text-center" style="margin-top: 2rem;">
-                <a href="pages/blog.html" class="btn btn-primary">View All Articles</a>
-            </div>
-        </div>
+    <!-- Blog Preview -->
+    <section id="blog" class="bg-gray-50 py-16 px-4 max-w-4xl mx-auto">
+      <h2 class="text-2xl font-semibold mb-6 text-center">Insights & AI Tips</h2>
+      <p class="text-center mb-4">Latest thoughts on AI, small business strategy, and market research.</p>
+      <div class="text-center">
+        <a href="#" class="text-indigo-600 hover:underline">View All Articles</a>
+      </div>
     </section>
 
-    <!-- Newsletter Section -->
-    <section class="newsletter" id="newsletter">
-        <div class="container">
-            <div class="newsletter-content">
-                <h2>Get Weekly Tips on AI, Trends & Business Growth</h2>
-                <p>Join our community of founders and small business owners getting actionable insights delivered straight to their inbox.</p>
-                <form id="newsletter-form" class="newsletter-form">
-                    <input type="email" placeholder="Your email address" required>
-                    <button type="submit">Subscribe</button>
-                </form>
-            </div>
-        </div>
+    <!-- Newsletter -->
+    <section class="py-16 px-4 bg-white text-center">
+      <h2 class="text-2xl font-semibold mb-4">Get Weekly Tips on AI, Trends & Business Growth</h2>
+      <p class="mb-6 max-w-2xl mx-auto">
+        Join our community of founders and small business owners getting actionable insights delivered straight to their inbox.
+      </p>
+      <form class="flex justify-center gap-2 max-w-md mx-auto">
+        <input type="email" placeholder="Your email address" class="border px-4 py-2 rounded w-full" />
+        <button type="submit" class="bg-indigo-600 text-white px-4 py-2 rounded hover:bg-indigo-700">
+          Subscribe
+        </button>
+      </form>
     </section>
 
-    <!-- Contact Section -->
-    <section class="section contact" id="contact">
-        <div class="container">
-            <div class="section-title">
-                <h2>Get in Touch</h2>
-            </div>
-            <form action="pages/submit-contact.php" method="POST" class="contact-form">
-                <input type="text" name="name" placeholder="Your Name" required>
-                <input type="email" name="email" placeholder="Your Email" required>
-                <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
-                <button type="submit" class="btn btn-primary">Send Message</button>
-            </form>
-        </div>
+    <!-- Contact -->
+    <section id="contact" class="py-16 px-4 bg-gray-100 text-center">
+      <h2 class="text-2xl font-semibold mb-4">Get in Touch</h2>
+      <p class="mb-6">Have a question? Need a custom plan? Let’s talk.</p>
+      <a href="mailto:hello@qpai.ai" class="text-indigo-600 hover:underline">hello@qpai.ai</a>
     </section>
 
     <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <p>&copy; 2025 QPAI. All rights reserved.</p>
-                <ul class="footer-links">
-                    <li><a href="pages/privacy.html">Privacy Policy</a></li>
-                    <li><a href="pages/terms.html">Terms of Service</a></li>
-                </ul>
-            </div>
-        </div>
+    <footer class="bg-white border-t py-6 text-center text-sm text-gray-500">
+      &copy; 2025 QPAI. All rights reserved.
     </footer>
-</body>
+  </body>
 </html>
 
    
